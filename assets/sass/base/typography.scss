@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: auto;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: auto;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  overflow-x: hidden;
+  background-color: #181717;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+  line-height: auto;
+}
+ol {
+  list-style: none;
+  line-height: auto;
+}
+a,
+button {
+  text-decoration: none;
+  outline: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: auto;
+  &:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    outline: 0;
+  }
+  &:hover {
+    text-decoration: none;
+    outline: 0;
+  }
+}
+.font-size55 {
+  font-family: "Oswald", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+}
+.font-size40 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.font-size46 {
+  font-family: "Oswald", sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+}
+.font-size35 {
+  font-family: "Great Vibes", cursive;
+  font-size: 35px;
+}
+.font-size28 {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.font-size20 {
+  font-family: "Lobster Two", cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+.font-size22 {
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}

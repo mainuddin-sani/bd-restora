@@ -1,0 +1,72 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  transition: all 0.3s linear;
+  .nav-link {
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0px 3px;
+    color: #f5f6fa;
+    transition: all 0.2s linear;
+    &:hover {
+      color: #ff5722;
+    }
+  }
+  .last_item {
+    &:hover {
+      color: #f5f6fa;
+      &::before {
+        width: 100%;
+      }
+    }
+    border-radius: 2px;
+    background: transparent;
+    color: #f5f6fa;
+    border: 1px solid #ff5722;
+    margin-top: -1px;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0;
+      background-color: #ff5722;
+      transition: all 0.3s linear;
+      z-index: -1;
+    }
+  }
+}
+.navbar-brand {
+  h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 55px;
+    color: #f5f6fa;
+    margin-top: 5px;
+    text-shadow: 5px 5px 15px gray;
+    span {
+      color: #ff5722;
+    }
+  }
+}
+
+/*Menu Fixed CSS Start*/
+.fixedmenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(45, 47, 49, 0.8);
+  padding: 0px 0px;
+  transition: all 0.3s linear;
+  z-index: 9999;
+}
+
+/*Menu Fixed CSS End*/
